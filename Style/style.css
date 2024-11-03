@@ -29,8 +29,8 @@
 
 @media (max-width: 775px) {
     .btn-lg-custom {
-        font-size: 2.5rem;
-        padding: 1px 10rem;
+        font-size: 2rem;
+        padding: 1px 7rem;
     }
     .game {
         font-size: 10rem;
