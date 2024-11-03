@@ -135,6 +135,15 @@ select.addEventListener("change", function() {
 //-----------------------------------------------------------------------------------------------
 
 function Game(count, speed) {
+        startGame();
+    if (numbers.length == count) {
+        clearInterval(iId);
+        for (let i = 0; i < numbers.length; i++) {
+            sum += numbers[i];
+        }
+        console.log(sum);
+        endgame();
+    }
     const iId = setInterval(() => {
         startGame()
         if (numbers.length == count) {
