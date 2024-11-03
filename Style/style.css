@@ -1,0 +1,44 @@
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.game {
+    font-size: 40rem;
+    display: none;
+}
+
+.btn-lg-custom {
+    font-size: 4rem;
+    padding: 1px 20rem;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+.btn-close:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+@media (max-width: 775px) {
+    .btn-lg-custom {
+        font-size: 2.5rem;
+        padding: 1px 10rem;
+    }
+    .game {
+        font-size: 10rem;
+    }
+}
+
+@media (min-width: 774px) and (max-width: 1400px) {
+    .game {
+        font-size: 15rem;
+    }
+}
